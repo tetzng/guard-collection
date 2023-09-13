@@ -42,5 +42,5 @@ mv nixfmt $bin/nixfmt
 
 # test setup
 luarocks install vusted
-git clone https://github.com/nvimdev/guard.nvim /home/runner/guard.nvim
+git clone https://github.com/tetzng/guard.nvim /home/runner/guard.nvim
 mv /home/runner/guard.nvim/lua/guard ./lua/
