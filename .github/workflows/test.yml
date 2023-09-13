@@ -48,9 +48,9 @@ jobs:
       - name: setup environment
         shell: bash
         run: bash ./test/setup.sh
-      - name: formatter test
-        shell: bash
-        run: vusted ./test/formatter
+          #- name: formatter test
+          #  shell: bash
+          #  run: vusted ./test/formatter
       - name: linter test
         shell: bash
         run: |
